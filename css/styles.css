@@ -1,3 +1,92 @@
+body{
+    display: grid;
+    background-image: url("img_tree.gif"), url("paper.gif");
+}
+
+
 .top-row {
-    
+    flex-direction: row;
+    background-color: red;
+    padding: 15px;
+}
+
+.top-row .top-img {
+    padding-left: 20px;
+}
+
+.vl {
+    border-left: 6px solid white;
+    height: 100px;
+  }
+
+.menu-row {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 10px;
+}
+
+.menu-item {
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-row .menu-box{
+    width: max-content;
+    height: fit-content;
+    color: blue;
+    padding: 20px;
+
+}
+
+.body-row{
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+}
+
+.left-col {
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    width: min-content;
+}
+
+.main-area{
+    padding: 20px;
+    flex-direction: column;
+    background-color: green;
+    padding: 15px;
+    color: white;
+    width: min-content;
+}
+
+
+.news-area{
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+    align-items: stretch;
+    background-color: green;
+    padding: 15px;
+    color: white;
+    width: auto;
+}
+.news-area p {
+    padding-left: 20px;
+}
+
+.personas-destacadas { 
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    height: min-content;
 }
